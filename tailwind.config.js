@@ -15,7 +15,9 @@ module.exports = {
         tokped: '#42B559',
       },
       fontFamily:{
-        roboto: "'Roboto', sans-serif;",
+        spar: "'League Spartan', sans-serif;",
+        bask: "'Libre Baskerville', serif;",
+        pop: "'Poppins', sans-serif;",
       },
       screens: {
         'md': '720px',

@@ -535,10 +535,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 3rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .ml-\[50\%\] {
   margin-left: 50%;
 }
@@ -668,6 +664,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -779,6 +780,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: justify;
 }
 
+.font-spar {
+  font-family: 'League Spartan', sans-serif;;
+}
+
+.font-bask {
+  font-family: 'Libre Baskerville', serif;;
+}
+
+.font-pop {
+  font-family: 'Poppins', sans-serif;;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -824,8 +837,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+h1{
+  font-family: 'League Spartan', sans-serif;
+}
+
+p{
+  font-family:'Libre Baskerville', serif;
 }
 
 .navbar-fixed {
@@ -893,3 +910,4 @@ body {
     padding-right: 4rem;
   }
 }
+
