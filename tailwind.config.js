@@ -12,12 +12,13 @@ module.exports = {
         light: '#64748b',
         secondary: '',
         whatsapp: '#25D366',
+        tokped: '#42B559',
       },
       fontFamily:{
         roboto: "'Roboto', sans-serif;",
       },
       screens: {
-        '2xl': '1320px',
+        'md': '720px',
       },
     },
   },
