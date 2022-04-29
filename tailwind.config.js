@@ -7,14 +7,21 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#84cc16',
+        primary: '#f1f5f9',
         dark: '#0f172a',
         light: '#64748b',
         secondary: '',
+        whatsapp: '#25D366',
       },
       fontFamily:{
         roboto: "'Roboto', sans-serif;",
-      }
+      },
+      screens: {
+        '2xl': '1320px',
+      },
+      backgroundImage: {
+        'hero-background': "dist/img/rendang.jpg",
+      },
     },
   },
   plugins: [],
