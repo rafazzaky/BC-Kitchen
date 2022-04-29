@@ -678,20 +678,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 0.95;
 }
 
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\'dist\/img\/rendang\.jpg\'\)\] {
-  background-image: url('dist/img/rendang.jpg');
-}
-
-.bg-\[url\(\'\/dist\/img\/rendang\.jpg\'\)\] {
-  background-image: url('/dist/img/rendang.jpg');
-}
-
 .bg-\[url\(\'\/dist\/img\/rendang2\.jpg\'\)\] {
   background-image: url('/dist/img/rendang2.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/rendang2\.jpg\'\)\] {
+  background-image: url('dist/img/rendang2.jpg');
 }
 
 .bg-fixed {
