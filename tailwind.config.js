@@ -19,9 +19,6 @@ module.exports = {
       screens: {
         '2xl': '1320px',
       },
-      backgroundImage: {
-        'hero-background': "dist/img/rendang.jpg",
-      },
     },
   },
   plugins: [],
