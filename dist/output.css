@@ -531,6 +531,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.mt-\[76px\] {
+  margin-top: 76px;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -602,6 +606,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-wrap {
@@ -694,8 +702,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(37 211 102 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-95 {
   --tw-bg-opacity: 0.95;
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.from-yellow-500 {
+  --tw-gradient-from: #eab308;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(234 179 8 / 0));
+}
+
+.to-red-700 {
+  --tw-gradient-to: #b91c1c;
 }
 
 .bg-fixed {
@@ -756,8 +792,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.25rem;
 }
 
-.pt-32 {
-  padding-top: 8rem;
+.pt-\[52px\] {
+  padding-top: 52px;
 }
 
 .pb-14 {
@@ -780,6 +816,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: justify;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .font-spar {
   font-family: 'League Spartan', sans-serif;;
 }
@@ -788,8 +828,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: 'Libre Baskerville', serif;;
 }
 
-.font-pop {
-  font-family: 'Poppins', sans-serif;;
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-rob {
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-lg {
@@ -886,6 +930,11 @@ p{
 
   .md\:bg-scroll {
     background-attachment: scroll;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:text-base {

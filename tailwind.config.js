@@ -18,6 +18,7 @@ module.exports = {
         spar: "'League Spartan', sans-serif;",
         bask: "'Libre Baskerville', serif;",
         pop: "'Poppins', sans-serif;",
+        rob: "'Roboto', sans-serif",
       },
       screens: {
         'md': '720px',
